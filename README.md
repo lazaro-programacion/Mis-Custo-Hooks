@@ -26,7 +26,7 @@ const initialForm = {
     email: ''
 };
 
-const { formValues, handelInputChange, reset } = useForm( initialForm )
+const [ formValues, handelInputChange, reset ] = useForm( initialForm )
 
 const { name, age, email } = formValues
 ```
